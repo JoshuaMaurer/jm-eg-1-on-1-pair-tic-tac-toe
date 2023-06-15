@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Square = ({handleClick}) => {
+const Square = ( {handleClick, value, index} ) => {
+  const clicks = () => {
+    handleClick(index)
+  }
   return (
-    <div className="grid" onClick={handleClick} >
-        Square
+    <div className="square" id={`square${index}`} onClick={clicks} >
+        {value}
     </div>
   )
 }

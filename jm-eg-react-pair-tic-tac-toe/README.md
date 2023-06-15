@@ -8,6 +8,7 @@ As a user, I can click on a square to mark it.
     Branch: eg/marking-squares
     add onclick attribute to squares
     Use Usestate to update clicks
+    Reference the selected index of the  squares array to reassign the value to an X or O
 
 
 

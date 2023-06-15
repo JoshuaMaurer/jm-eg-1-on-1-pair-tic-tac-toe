@@ -1,26 +1,21 @@
-.superior{
-  display: flex;
-  justify-content: center;
-}
-
-
-.squares{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
-  width: 615px;
-}
-
-.grid{
-  border: 2px;
-  height: 200px;
-  width: 200px;
+.app {
   text-align: center;
-  color: black;
-  display: flex;
-  border-style: solid;
-  align-content: center;
-  justify-content: center;
 }
-
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 462px;
+  margin: 0 auto;
+}
+.square {
+  border: 2px solid black;
+  height: 150px;
+  width: 150px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:hover {
+  background-color: gray;
+}
