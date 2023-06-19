@@ -19,3 +19,13 @@
 .square:hover {
   background-color: gray;
 }
+.updateMessage{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: larger;
+  font-weight: 400;
+}
+.page{
+  background-color: bisque;
+}

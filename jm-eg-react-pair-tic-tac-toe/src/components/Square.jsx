@@ -1,13 +1,16 @@
 import React from 'react'
 
-const Square = ( {handleClick, value, index} ) => {
+const Square = ( {handleTurn, value, index} ) => {
   const clicks = () => {
-    handleClick(index)
+    return handleTurn(index)
+    // console.log("message")
   }
   return (
-    <div className="square" id={`square${index}`} onClick={clicks} >
-        {value}
-    </div>
+    <>
+      <div className="square"  onClick={clicks}>
+          {value}
+      </div>
+    </>
   )
 }
 
