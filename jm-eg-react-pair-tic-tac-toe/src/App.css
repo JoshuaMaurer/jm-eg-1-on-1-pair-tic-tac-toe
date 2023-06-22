@@ -1,3 +1,6 @@
+body{
+  background-color: bisque;
+}
 .app {
   text-align: center;
 }
@@ -25,7 +28,4 @@
   padding: 25px;
   font-size: larger;
   font-weight: 400;
-}
-.page{
-  background-color: bisque;
 }

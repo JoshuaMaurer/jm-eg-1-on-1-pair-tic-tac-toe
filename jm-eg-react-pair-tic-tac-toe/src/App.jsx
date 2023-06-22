@@ -49,7 +49,7 @@ const App = () => {
   }
 
   return (
-    <div className='page'>
+    <>
       <div className="app">
         <h1>Tic-Tac-Toe</h1>
         <div className='grid'>{squares.map((
@@ -63,7 +63,7 @@ const App = () => {
       <div className="updateMessage">
         {currentState} 
       </div>
-    </div>
+    </>
   );
 };
 
