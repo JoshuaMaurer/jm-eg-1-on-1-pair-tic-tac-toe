@@ -44,8 +44,14 @@ const App = () => {
   let currentState
   if (winning){
     currentState = winning + " wins the game!"
-  }else{
-    currentState = (playerTurn ? "❌" : "⭕️") + " it's your turn"
+  }else if (currentState = (playerTurn ? "❌" : "⭕️") + " it's your turn"){
+  }
+  // else {
+  //   "It's a tie!"
+  // }
+
+  const handleReset = () => {
+    setSquares(Array(9).fill(null))
   }
 
   return (
@@ -62,6 +68,7 @@ const App = () => {
       </div>
       <div className="updateMessage">
         {currentState} 
+        <button onClick={handleReset}>Reset</button>
       </div>
     </>
   );
